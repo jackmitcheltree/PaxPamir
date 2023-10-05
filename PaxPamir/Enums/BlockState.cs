@@ -6,9 +6,10 @@ using System.Threading.Tasks;
 
 namespace PaxPamir.Enums
 {
-    public enum CardType
+    public enum BlockState
     {
-        EventCard = 0,
-        PlayerCard = 1,
+        None = 0,
+        Road = 1,
+        Army = 2,
     }
 }

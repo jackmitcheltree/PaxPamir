@@ -4,11 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace PaxPamir.Enums
+namespace PaxPamir
 {
-    public enum CardType
+    internal class BlockSlot
     {
-        EventCard = 0,
-        PlayerCard = 1,
     }
 }
