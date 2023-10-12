@@ -22,6 +22,7 @@ namespace PaxPamir
         public Coalition Coalition { get; set; }
         public int Influence { get; set; }
         public List<Card> Prizes { get; set; } = new List<Card>();
-
+        public List<CardPassive> ActiveCardPassives { get; set; } = new List<CardPassive>();
+        public List<EventOutcome> ActiveEventOutcomes { get; set; } = new List<EventOutcome>();
     }
 }
