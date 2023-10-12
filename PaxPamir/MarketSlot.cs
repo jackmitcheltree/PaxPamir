@@ -6,7 +6,9 @@ using System.Threading.Tasks;
 
 namespace PaxPamir
 {
-    internal class MarketSlot
+    public class MarketSlot
     {
+        public Card ?Card { get; set; }
+        public int Coins { get; set; }
     }
 }

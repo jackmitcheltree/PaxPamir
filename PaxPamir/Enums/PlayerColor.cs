@@ -6,11 +6,13 @@ using System.Threading.Tasks;
 
 namespace PaxPamir.Enums
 {
-    public enum CylinderState
+    public enum PlayerColor
     {
-        Spy = 0,
-        Tribe = 1,
-        OnBoard = 2,
-        Gift = 3,
+        None = 0,
+        Red = 1,
+        Blue = 2,
+        Yellow = 3,
+        Grey = 4,
+        Black = 5,
     }
 }
