@@ -24,5 +24,6 @@ namespace PaxPamir
         public List<Card> Prizes { get; set; } = new List<Card>();
         public List<CardPassive> ActiveCardPassives { get; set; } = new List<CardPassive>();
         public List<EventOutcome> ActiveEventOutcomes { get; set; } = new List<EventOutcome>();
+        public string? PlayerName {  get; set; }
     }
 }

@@ -9,9 +9,9 @@ namespace PaxPamir
 {
     public class BlockSlot
     {
-        public BlockState State { get; private set; }
-        public Coalition Coalition { get; private set; }
-        public Tuple<(Region, Region)> ?Location { get; private set; }
+        public BlockState State { get; set; }
+        public Coalition Coalition { get; set; }
+        public Tuple<(Region, Region)> ?Location { get; set; }
 
     }
 }
